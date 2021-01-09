@@ -1,0 +1,139 @@
+.conteneur,.conteneur-messages
+{
+    margin-top: 80px;
+
+}
+
+
+.aside-friends
+{
+    width: 200px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 60px;
+    overflow-y: auto;
+
+}
+.aside-links
+{
+    width: 18%;
+    /* min-width: 200px; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    overflow-y: auto;
+
+}
+article
+{
+    margin: 20px 0;
+}
+
+.posts-section
+{
+    padding: 20px 50px;
+    width: 50%;
+
+    margin-left: 28%;
+}
+
+@media screen and (max-width: 1070px) {
+
+
+    .posts-section{
+
+        margin-left: 250px;
+        padding: 20px 20px;
+    }
+
+}
+
+
+.profile-picture
+{
+    border:3px solid white;
+}
+
+.banner
+{
+    position:relative;
+    margin-bottom:100px
+}
+
+.banner h2
+{
+    position:absolute;
+    bottom:0;left:200px;
+    color:white;
+}
+
+.banner .Addrequest
+{
+    position:absolute;
+    bottom:-86px;
+    right:0
+}
+
+.banner-profile-picture
+{
+    position:absolute;
+    bottom:-70px;
+    left:25px;
+
+}
+
+article .post-header
+{
+    position:relative;
+}
+article .post-header .post-created-at
+{
+    position:absolute;
+    bottom:0;
+    left:56px;
+}
+
+@media screen and (max-width: 950px) {
+    .aside-friends {
+     display: none;
+    }
+
+    .posts-section{
+        width: auto;
+        position: relative;
+        margin-right: 20px;
+        padding: 20px 40px;
+
+    }
+
+}
+@media screen and (max-width: 769px) {
+    .aside-links {
+     top:55px
+    }
+    .conteneur
+    {
+        margin-top: 30px;
+    }
+    .banner h2
+    {
+        font-size: 20px;
+    }
+
+
+
+}
+@media screen and (max-width: 800px) {
+
+    .posts-section{
+        width: auto;
+        margin-top: 30px;
+        margin-left: 22%;
+
+        padding:5px;
+
+    }
+
+}
