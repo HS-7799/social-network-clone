@@ -3,7 +3,7 @@
 ## Installation
 after clon this repository
 ```
-git clone url-of-rep
+git clone https://github.com/HS-7799/social-network-clone.git
 ```
 Go inside the directory
 ```
